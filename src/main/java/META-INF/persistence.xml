@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="Libreria_Version_2">
+		<class>com.libreria.entitybeans.Libro</class>
+		<class>com.libreria.entitybeans.LineasPedido</class>
+		<class>com.libreria.entitybeans.Pedido</class>
+		<class>com.libreria.entitybeans.Perfile</class>
+		<class>com.libreria.entitybeans.Tema</class>
+		<class>com.libreria.entitybeans.Usuario</class>
+	</persistence-unit>
+</persistence>
